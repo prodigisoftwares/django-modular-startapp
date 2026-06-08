@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "you@example.com" },
+    { name = "Prodigius", email = "hello@documendous.com" },
 ]
 keywords = ["django", "startapp", "scaffold", "management command"]
 classifiers = [
