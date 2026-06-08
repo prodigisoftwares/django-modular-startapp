@@ -2,13 +2,32 @@
 name = "django-modular-startapp"
 version = "0.1.0"
 description = "A Django management command that scaffolds apps using packages instead of single-file modules"
+readme = "README.md"
 requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "you@example.com" },
+]
+keywords = ["django", "startapp", "scaffold", "management command"]
+classifiers = [
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Code Generators",
+]
 dependencies = [
     "django>=4.2",
 ]
 
 [project.urls]
 Homepage = "https://github.com/prodigisoftwares/django-modular-startapp"
+Repository = "https://github.com/prodigisoftwares/django-modular-startapp"
+Issues = "https://github.com/prodigisoftwares/django-modular-startapp/issues"
 
 [build-system]
 requires = ["hatchling"]
