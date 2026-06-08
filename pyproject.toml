@@ -1,0 +1,15 @@
+[project]
+name = "django-modular-startapp"
+version = "0.1.0"
+description = "A Django management command that scaffolds apps using packages instead of single-file modules"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=4.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/prodigisoftwares/django-modular-startapp"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
